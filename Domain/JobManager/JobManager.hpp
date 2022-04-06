@@ -1,5 +1,5 @@
-#ifndef APPLICATIONMANAGER _H
-#define APPLICATIONMANAGER _H
+#ifndef JOBMANAGER _H
+#define JOBMANAGER _H
 #include <vector>
 #include <iostream>
 
@@ -7,7 +7,7 @@ namespace Logical_View
 {
     namespace Domain
     {
-        namespace ApplicationManager
+        namespace JobManager
         {
 
             class listings
@@ -18,10 +18,9 @@ namespace Logical_View
                 std::string listEmployer;
             };
 
-            class ApplicationManager_
+            class JobManager_
             {
             private:
-
             public:
                 // These Functions Need to be implemented in the Application Manager
                 getJobListings();
