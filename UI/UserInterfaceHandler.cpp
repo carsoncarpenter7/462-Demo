@@ -67,23 +67,13 @@ int main()
         std::cin >> usecase;
         switch (usecase)
         {
-        case 1:
-            break;
-        case 2:
-            ApplyForPosition();
-            break;
-        case 3:
-            MaintainProfile();
-            break;
-        case 4:
-            break;
-        case 5:
-            MakePayment();
-            break;
-        case 6:
-            break;
-        case 7:
-            break;
+        case 1: break;
+        case 2: ApplyForPosition(); break;
+        case 3: MaintainProfile(); break;
+        case 4: break;
+        case 5: MakePayment(); break;
+        case 6: break;
+        case 7: break;
         }
     }
     // Create Account
